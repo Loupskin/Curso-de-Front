@@ -1,64 +1,61 @@
-/* Geral */
-
+/* GERAL */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: helvetica;
-}
-
-body {
+    font-family: Helvetica;
+  }
+  
+  body {
     background-color: #fafafa;
-}
-
-/* Containers */
-
-#main-container {
+  }
+  
+  /* CONTAINERS */
+  #main-container {
     display: flex;
     margin-top: 30px;
-}
-
-#banner-container,
-#form-container {
+  }
+  
+  #banner-container,
+  #form-container {
     flex: 1 1 0;
     width: 50%;
-}
-
-#banner-container {
+  }
+  
+  #banner-container {
     text-align: right;
-}
-
-#banner-container img {
+  }
+  
+  #banner-container img {
     width: 100%;
     margin-right: 15px;
     margin-top: 25px;
     max-width: 380px;
-}
-
-#form-container {
+  }
+  
+  #form-container {
     text-align: center;
-}
-
-/* Login Form */
-
-#form-box {
+  }
+  
+  /* LOGIN FORM */
+  #form-box {
     background-color: #fff;
     border: 1px solid #dbdbdb;
     width: 350px;
     margin-top: 30px;
-}
-
-#logo-insta {
+  }
+  
+  #logo-insta {
     width: 175px;
     height: 51px;
     margin: 30px auto 12px;
-}
-
-#login-form {
+  }
+  
+  #login-form {
     margin-top: 20px;
-}
-
-#login-form input {
+  }
+  
+  #login-form input {
     display: block;
     font-size: 12px;
     padding: 12px 9px;
@@ -67,9 +64,9 @@ body {
     border-radius: 3px;
     width: 268px;
     margin: 5px auto;
-}
-
-#login-form input[type="submit"] {
+  }
+  
+  #login-form input[type="submit"] {
     background-color: #b2dffc;
     color: #fff;
     margin-top: 15px;
@@ -78,21 +75,20 @@ body {
     font-size: 13px;
     padding: 0;
     font-weight: bold;
-}
-
-/* Separator */
-
-.separator {
+  }
+  
+  /* SEPARADOR */
+  .separator {
     position: relative;
-}
-
-.line {
+  }
+  
+  .line {
     border-top: 1px solid #dbdbdb;
     width: 268px;
-    margin-top: 25px auto 35px
-}
-
-.separator span {
+    margin: 25px auto 35px;
+  }
+  
+  .separator span {
     position: absolute;
     text-transform: uppercase;
     color: #bbb;
@@ -101,93 +97,86 @@ body {
     width: 50px;
     margin-left: -25px;
     font-size: 14px;
-}
-
-/* Facebook Login */
-
-#facebook-login {
+  }
+  
+  /* FACEBOOK LOGIN */
+  #facebook-login {
     margin-bottom: 25px;
-}
-
-#facebook-login a {
+  }
+  
+  #facebook-login a {
     text-decoration: none;
     color: #385185;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#facebook-login img {
+  }
+  
+  #facebook-login img {
     width: 16px;
     height: 16px;
     margin-right: 8px;
-}
-
-#facebook-login span {
+  }
+  
+  #facebook-login span {
     font-weight: bold;
     font-size: 13px;
     margin-top: 1px;
-}
-
-/* Forgot Password */
-
-#forgot-pass {
+  }
+  
+  /* FORGOT PASSWORD */
+  #forgot-pass {
     margin-bottom: 20px;
     font-size: 12px;
-}
-
-#forgot-pass a {
+  }
+  
+  #forgot-pass a {
     text-decoration: none;
     color: #373799;
-}
-
-/* Register */
-
-#register-container {
+  }
+  
+  /* REGISTER */
+  #register-container {
     background-color: #fff;
     border: 1px solid #dbdbdb;
     width: 350px;
     margin-top: 10px;
     padding: 25px;
-}
-
-#register-container p {
+  }
+  
+  #register-container p {
     font-size: 14px;
     color: #262626;
-
-}
-
-#register-container a {
+  }
+  
+  #register-container a {
     color: #4a95f6;
     font-weight: bold;
     text-decoration: none;
-}
-
-/* Get app */
-
-#get-app-container {
+  }
+  
+  /* GET APP */
+  #get-app-container {
     text-align: center;
     width: 350px;
-
-}
-
-#get-app-container {
+  }
+  
+  #get-app-container p {
     margin: 20px 0;
     font-size: 13px;
-}
-
-#get-app-container a {
+  }
+  
+  #get-app-container a {
     text-decoration: none;
-}
-
-#get-app-container img {
+  }
+  
+  #get-app-container img {
     width: 136px;
     height: 40px;
-}
-
-/* Footer */
-
-footer {
+  }
+  
+  /* FOOTER */
+  footer {
     text-align: left;
     width: 1000px;
     margin: 50px auto;
@@ -195,24 +184,24 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-footer #footer-links {
+  }
+  
+  footer #footer-links {
     display: flex;
     list-style: none;
-}
-
-#footer-links li {
-    margin-top: 10px;
-}
-
-#footer-links a,
-#copyright {
+  }
+  
+  #footer-links li {
+    margin-right: 10px;
+  }
+  
+  #footer-links a,
+  #copyright {
     text-decoration: none;
     color: #8e8e8e;
     font-size: 12px;
-}
-
-#copyright {
+  }
+  
+  #copyright {
     margin-top: 10px;
-}
+  }
