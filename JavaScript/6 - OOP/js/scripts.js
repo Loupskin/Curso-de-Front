@@ -10,7 +10,7 @@ const animal = {
   
   // 2 - aprofundando em métodos
   const pessoa = {
-    nome: "Matheus",
+    nome: "Marcos",
   
     getNome: function () {
       return this.nome;
@@ -25,7 +25,7 @@ const animal = {
   
   console.log(pessoa.getNome());
   
-  pessoa.setNome("Matheus Battisti");
+  pessoa.setNome("Marcos Vinicius");
   
   console.log(pessoa.getNome());
   
