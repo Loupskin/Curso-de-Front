@@ -119,14 +119,14 @@ function minhaFuncao() {
   };
   
   greeting();
-  greeting("Matheus");
+  greeting("Marcos");
   
   // 8 - valor default
   const customGreeting = (name, greet = "Olá") => {
     return `${greet}, ${name}!`;
   };
   
-  console.log(customGreeting("Matheus"));
+  console.log(customGreeting("Marcos"));
   
   console.log(customGreeting("João", "Bom dia"));
   
