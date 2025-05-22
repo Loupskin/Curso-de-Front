@@ -88,6 +88,8 @@ if (user === "Maria") {
   console.log("Olá Maria!");
 }
 
+console.log(user === "João", user === "Maria");
+
 // 8 - else
 
 const loggedIn = false;
@@ -116,13 +118,13 @@ if (1 > 2) {
   console.log("Agora sim!");
 }
 
-const userName = "Matheus";
-const userAge = 31;
+const userName = "Marcos";
+const userAge = 45;
 
 if (userName === "José") {
   console.log("Bem vindo José!");
-} else if (userName === "Matheus" && userAge === 31) {
-  console.log("Olá Matheus, você tem 31 anos!");
+} else if (userName === "Marcos" && userAge === 45) {
+  console.log("Olá Marcos, você tem 45 anos!");
 } else {
   console.log("Nenhuma condição aceita!");
 }
@@ -130,10 +132,18 @@ if (userName === "José") {
 // 10 while
 let p = 0;
 
+// Exemplo do curso abaixo:
+
+// while (p < 5) {
+// console.log(`Repetindo ${p}`);
+//  p++;
+// }
+
 while (p < 5) {
   console.log(`Repetindo ${p}`);
-  p++;
+  p = p + 1;
 }
+
 
 // loop infinito
 // let x = 10;
@@ -148,6 +158,11 @@ do {
   console.log(`Valor de o: ${o}`);
   o = o - 1;
 } while (o > 1);
+
+// do {
+//  console.log(`Valor de o: ${o}`);
+//  o -- 1;
+// } while (o > 1);
 
 // 12 - for
 for (let t = 0; t < 10; t++) {
@@ -175,7 +190,7 @@ for (let u = 0; u < 10; u++) {
 
 // 14 - break
 for (let g = 20; g > 10; g--) {
-  console.log(`O g é: ${g}`);
+  console.log(`O valor de g é: ${g}`);
 
   if (g === 12) {
     console.log("Chegamos no 12!");
