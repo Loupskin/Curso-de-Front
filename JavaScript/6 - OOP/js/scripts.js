@@ -6,6 +6,8 @@ const animal = {
     },
   };
   
+  console.log(animal.nome);
+
   animal.latir();
   
   // 2 - aprofundando em métodos
